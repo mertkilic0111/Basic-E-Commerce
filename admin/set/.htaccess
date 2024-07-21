@@ -1,0 +1,6 @@
+Options All -Indexes
+
+RewriteEngine on
+
+RewriteRule ^x$ x.php [NC,L]
+RewriteRule ^login.html$ login.php [NC,L]

@@ -1,0 +1,292 @@
+.sidebar .sidebar-body .nav .nav-item.active .nav-link {
+    color: #000
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link::before {
+    color: #000
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link .link-icon {
+    color: #000
+}
+
+.sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title {
+    margin-left: 30px
+}
+
+.sidebar .sidebar-body .nav .nav-item:hover .nav-link {
+    color: #000
+}
+
+.dataTables_wrapper.dt-bootstrap4 .dataTables_filter {
+    margin-left: 18px
+}
+
+.collapse li a {
+    color: #bfc3ce !important;
+}
+
+table th,
+td {
+    font-weight: 600 !important;
+}
+
+.page-item.active .page-link {
+    background-color: #d2a042e0;
+    border-color: #d2a042e0;
+    box-shadow: none;
+    color: #fff !important;
+}
+
+td.wr {
+    white-space: break-spaces !important;
+}
+
+td.wrapok {
+    word-wrap: break-word !important;
+    line-height: 17px;
+}
+
+td.wrapok2 {
+    word-wrap: break-word !important;
+}
+
+.switchToggle input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.switchToggle label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    max-width: 70px;
+    height: 30px;
+    background: #d1d1d1;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switchToggle label:after {
+    content: '';
+    font-size: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.switchToggle input:checked+label,
+.switchToggle input:checked+input+label {
+    background: #3ed388;
+}
+
+.switchToggle input+label:before,
+.switchToggle input+input+label:before {
+    content: '';
+    font-size: 10px;
+    position: absolute;
+    top: 7px;
+    left: 35px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:before,
+.switchToggle input:checked+input+label:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 26px;
+    height: 26px;
+    border-radius: 90px;
+    transition: 0.3s;
+    text-indent: 0;
+    color: #fff;
+}
+
+.switchToggle input:checked+label:after,
+.switchToggle input:checked+input+label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.switchToggle label:active:after {
+    width: 60px;
+}
+
+.toggle-switchArea {
+    margin: 10px 0 10px 0;
+}
+
+.fa-xs {
+    font-size: 0.7rem !important;
+    margin: 0.2rem !important;
+}
+
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background-color: #fff;
+    z-index: 999999;
+}
+
+#loading-image {
+    z-index: 100;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item .nav-link[aria-expanded="true"] {
+    color: white !important;
+}
+
+.sidebar .sidebar-body .nav .nav-item:hover .nav-link {
+    color: white !important;
+}
+
+.sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-icon {
+    color: rgb(215, 171, 89) !important;
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link::before {
+    color: white !important;
+
+}
+
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title,
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item.active .nav-link .link-title {
+    color: white !important
+}
+
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item:hover .nav-link svg,
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item.active .nav-link svg {
+    fill: none !important;
+    color: rgb(215, 171, 89) !important;
+}
+
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link.active::before {
+    border: 1px solid #ba9234 !important;
+    background: #ba9234;
+}
+
+.table td img {
+    height: 45px !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.swal2-modal .swal2-actions button.swal2-confirm:not(:disabled):not(.disabled):active:focus,
+.wizard>.actions a:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.swal2-modal .swal2-actions button.swal2-confirm:not(:disabled):not(.disabled).active:focus,
+.wizard>.actions a:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus,
+.swal2-modal .swal2-actions .show>button.dropdown-toggle.swal2-confirm:focus,
+.wizard>.actions .show>a.dropdown-toggle:focus {
+    box-shadow: unset !important;
+}
+
+.private-box-shadow {
+    box-shadow: rgba(0, 0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0) 0px 15px 12px !important
+}
+
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-title,
+.sidebar-dark .sidebar .sidebar-body .nav .nav-item.active .nav-link .link-title {
+    color: white !important;
+}
+
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-danger,
+.btn-secondary {
+
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+.table td .badge {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 20px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+    display: none !important;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_desc_disabled {
+    background-color: #0c1427;
+    color: #fff
+}
+
+table.dataTable thead th {
+    background-color: #0c1427;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+table thead th {
+    background-color: #0c1427;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.page-link {
+    color: #0c1427 !important;
+    box-shadow: none;
+}
+
+.f-10 {
+    font-size: 10px !important;
+}
+
+.f-12 {
+    font-size: 12px !important;
+}
+
+.no-box-shadow {
+    box-shadow: none !important;
+}

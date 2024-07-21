@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Rewrite rule for product detail page
+RewriteRule ^([0-9a-zA-Z-_]+)$ product-detail.php?slug_url=$1 [L,QSA]
+
+# Rewrite rules for static pages
+RewriteRule ^anasayfa\.html$ index.php [L]
+RewriteRule ^hakkimizda\.html$ hakkimizda.php [L]
+RewriteRule ^iletisim\.html$ iletisim.php [L]
+RewriteRule ^sepet\.html$ sepet.php [L]
+RewriteRule ^success\.html$ success.php [L]
+RewriteRule ^404\.html$ 404.php [L]

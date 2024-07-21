@@ -1,0 +1,98 @@
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toast {
+    font-size: 1.25rem;
+    /* Increase font size */
+    padding: 1rem;
+    /* Increase padding */
+    min-width: 300px;
+    /* Set minimum width */
+}
+
+#zoom-box {
+    background-repeat: no-repeat;
+    pointer-events: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: none;
+    /* Initially hidden */
+}
+
+@media (max-width: 768px) {
+    #zoom-box {
+        width: 200px;
+        height: 200px;
+        top: auto;
+        left: 0;
+        bottom: -210px;
+        /* Positioned 10px below the main image */
+    }
+}
+
+#zoom-box-mobile {
+    background-repeat: no-repeat;
+    pointer-events: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: auto;
+    left: 0;
+    bottom: -210px;
+    /* Positioned 10px below the main image */
+    display: none;
+    /* Initially hidden */
+}
+
+.remove-from-cart {
+    display: block;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    width: 80px;
+    /* Genişliği arttırdık */
+    height: 80px;
+    /* Yüksekliği arttırdık */
+    object-fit: cover;
+    border-radius: 10px;
+    /* Kenarları yuvarlattık */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Gölge ekledik */
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.cart-item-price,
+.cart-item-quantity,
+.cart-item-total {
+    width: 100px;
+    text-align: right;
+}
+
+.cart-total {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
