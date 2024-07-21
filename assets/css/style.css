@@ -96,3 +96,19 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+/* Logo için stil düzenlemeleri */
+.logo img {
+    max-height: 50px;
+    /* Logo maksimum yüksekliği */
+    width: auto;
+    /* Genişlik otomatik olarak ayarlanır */
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 40%;
+        max-height: 40px;
+        /* Mobil için logo maksimum yüksekliği */
+    }
+}
