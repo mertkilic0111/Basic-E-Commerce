@@ -19,8 +19,8 @@ $setting = $settings->fetch(); ?>
 <body>
     <header class="bg-gradient-to-r from-blue-600 to-purple-600 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <div class="text-white font-bold text-2xl">
-                <div class="logo">
+            <div class="logo">
+                <div class="text-white font-bold text-2xl">
                     <a href="anasayfa.html"><img src="<?= $setting['logo']; ?>" alt="Logo" style="width: 100%;" class="h-8"></a>
                 </div>
             </div>
